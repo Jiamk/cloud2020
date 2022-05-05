@@ -59,7 +59,7 @@ public class PaymentController {
     public Object discovery(){
         List<String> services = discoveryClient.getServices();
         for (String element : services) {
-            log.info("****111*****element: "+element);
+            log.info("****111222*****element: "+element);
         }
 
         List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
